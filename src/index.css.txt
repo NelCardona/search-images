@@ -1,0 +1,31 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+/* para centrar los button siguiente.../atras... */
+/*  */
+
+#hello, hello1{
+    margin-left: 500px;
+}
+/* Decoración al submenú */
+#marca {
+    background-color: orange;*/
+    transition: bacground-color .5s;
+    cursor: pointer;
+
+}
+#marca:hover {
+    background-color: orange;
+    
+} 
+/* .hello {
+    @apply ml-500;
+}
+.hello1 {
+    @apply ml-500;
+}
+.marca {
+    @apply transition bg-color-orange bg-color .5s cursor-pointer;
+} */
+
+

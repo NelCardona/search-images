@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Will not work */
+@import "./components/card";
+@import "./components/buttons.css";
+@import "./components/card.css";
+
+@layer components {
+    .hello {
+      @apply inline-block px-5 py-3 text-sm font-semibold tracking-wider uppercase rounded-lg focus:outline-none focus:ring focus:ring-offset-2 sm:text-base;
+    }
+    .hello1 {
+      @apply text-white bg-indigo-500 hover:bg-indigo-400 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-600;
+    }
+    .marca {
+      @apply text-gray-800 bg-gray-300 hover:bg-gray-200 focus:ring-gray-300 focus:ring-opacity-50 active:bg-gray-400;
+    }
+  }
+.btn {
+  @apply py-2 px-4 .rounded;
+}
+.btn-blue {
+  @apply text-white bg-blue-500;
+
+}
+.btn-blue:hover {
+  apply bg-blue-700;
+}
+  
+.card {
+  @apply overflow-hidden rounded shadow-lg;
+  
+}
